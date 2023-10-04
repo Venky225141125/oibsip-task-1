@@ -1,0 +1,222 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.top a:hover{
+    color: #eb0818;
+    font-size: 25px;
+}
+nav {
+    background-color: #333;
+    color: white;
+    height: 100PX;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    size: 40px;
+}
+
+nav li {
+    padding: 50px;
+    padding-top: 30px;
+    display: inline;
+    size: 40px;
+    align-items: center;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    size: 40px;
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7)80%,#e67e22), url('travel.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+.hero h1:hover{
+    font-size: 70px;
+    color: #eb0818;
+}
+
+.hero p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #f36f6f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e04848;
+    size: 30px;
+}
+
+.about p{
+    padding-left: 200px;
+    padding-top: 90px;
+    padding-right: 300px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.about h2 {
+    padding-left: 200px;
+    padding-top: -50px;
+}
+
+.places {
+    padding: 50px;
+    background: url('black.png');
+    background-size: 100% 100%;
+}
+
+.places h2 {
+    font-size: 30px;
+    padding-top: -20px;
+    text-align: center;
+}
+div.scroll {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+  }
+.place {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    color: aliceblue;
+    background: linear-gradient(rgba(0,0,0,0.7)80%,#7b756f), url('p3.png');
+    width: 40%;
+    height: 60%;
+}
+
+.place img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.contact {
+    padding: 50px;
+    background:url('travel.png');
+    background-size: 100% 100%;
+}
+.contact div{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+.contact h2 {
+    font-size: 35px;
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    font-size: larger;
+}
+.ss{
+    align-items: center;
+    padding-left: 35%;
+}
+.formdetails{
+    display: inline-block;
+            width: 30%;
+            margin: 0 4%;
+            padding: 20px;
+            background-color: #1a87a2;
+            color: #fff;
+            background-image: url(p2.jpg);
+            border-radius: 10px;
+            box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.5);
+}
+form label {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #f36f6f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #e04848;
+    size: 30px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin: 0 8px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
